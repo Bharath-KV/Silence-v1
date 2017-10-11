@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.bharath.silencev1.SplashScreen">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="0.11"
+        android:src="@drawable/silent"
+        tools:ignore="ContentDescription,InefficientWeight,ObsoleteLayoutParam"
+        android:layout_marginEnd="122dp"
+        android:layout_marginTop="152dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/iv"
+        android:layout_alignStart="@+id/iv"
+        android:layout_below="@+id/iv"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="Silence"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Because some places need silence"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:text="Noor Saleem Baig"
+        android:textColor="@android:color/white"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
