@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         maghribText = (Button) findViewById(R.id.maghribStartTime);
         ishaText = (Button) findViewById(R.id.ishaStartTime);
 
-        url = "http://muslimsalat.com/"+loc+"/daily.json?key=dd6bc23f9b9671d19711e79cb573302e";
+        //url = //Insert your url here along with the api key (Ex: https://your_webite.com&your_api_key)
 
         PrayerTimings prayerTimings = new PrayerTimings();
 
